@@ -22,7 +22,7 @@ class registration : AppCompatActivity() {
             var firstName = ""
             var phoneNumber = ""
             var requestBody = MultipartBody.Builder()
-                .setType(MultipartBody.FORM)
+                .setType(MultipawrtBody.FORM)
                 .addFormDataPart("first_name", firstName)
                 .addFormDataPart("last_name", lastName)
                 .addFormDataPart("email", email)
